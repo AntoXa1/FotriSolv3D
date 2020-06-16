@@ -7,6 +7,6 @@ git add .
 msg="update  "$(date)
 echo $msg
 
-git commit -m "$d"
+git commit -m "$msg"
 
 git push origin master
